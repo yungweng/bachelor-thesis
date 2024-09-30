@@ -130,7 +130,7 @@ class StockTradingEnv(gym.Env):
             self.balance,
             self.agent_value,
             self.long_shares_held,
-            self.buy_and_hold_value,
+            self.buy_and_hold_shares,
         ])
 
         # Concatenate data
